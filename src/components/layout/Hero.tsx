@@ -34,10 +34,10 @@ const Hero = () => {
           {/* Left content - 60% */}
           <div className="md:col-span-3">
             <h1 className="text-4xl md:text-5xl font-bold text-[#2D2D2D] mb-6">
-              Startup Accounting Services for Modern Businesses
+              HR BPaaS Services for Modern Businesses
             </h1>
             <p className="text-lg md:text-xl text-[#2D2D2D] mb-8">
-              We handle your books, taxes, and financial reporting so you can focus on growing your business.
+              人事・労務管理、採用支援、従業員エンゲージメントなど、あらゆるHR業務をワンストップでサポートします。
             </p>
             
             {/* Email capture form */}
