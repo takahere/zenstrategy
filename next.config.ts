@@ -14,7 +14,6 @@ const nextConfig: NextConfig = {
     ],
     unoptimized: true,
   },
-  basePath: '/zenstrategy', // サブディレクトリのパス
   eslint: {
     // ESLintエラーを無視してビルドを続行
     ignoreDuringBuilds: true,
