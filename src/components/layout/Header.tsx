@@ -24,12 +24,6 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link href="/industries" className="text-[#2D2D2D] hover:text-[#7C5CFF] px-3 py-2 text-sm font-medium">
-              業種別
-            </Link>
-            <Link href="/customers" className="text-[#2D2D2D] hover:text-[#7C5CFF] px-3 py-2 text-sm font-medium">
-              導入事例
-            </Link>
             <Link href="/pricing" className="text-[#2D2D2D] hover:text-[#7C5CFF] px-3 py-2 text-sm font-medium">
               サービス内容
             </Link>
@@ -69,20 +63,6 @@ const Header = () => {
       {isMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
-            <Link 
-              href="/industries" 
-              className="block px-3 py-2 rounded-md text-base font-medium text-[#2D2D2D] hover:text-[#7C5CFF]"
-              onClick={toggleMenu}
-            >
-              業種別
-            </Link>
-            <Link 
-              href="/customers" 
-              className="block px-3 py-2 rounded-md text-base font-medium text-[#2D2D2D] hover:text-[#7C5CFF]"
-              onClick={toggleMenu}
-            >
-              導入事例
-            </Link>
             <Link 
               href="/pricing" 
               className="block px-3 py-2 rounded-md text-base font-medium text-[#2D2D2D] hover:text-[#7C5CFF]"
