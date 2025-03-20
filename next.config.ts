@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  // output: 'export', // 開発環境では不要なのでコメントアウト
+  output: 'export', // 静的ファイル生成用の設定
   images: {
     remotePatterns: [
       {
