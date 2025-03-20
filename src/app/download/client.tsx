@@ -73,6 +73,76 @@ export default function DownloadClient() {
         </Container>
       </section>
 
+      {/* Benefits Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <Container>
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-center text-[#2D2D2D] mb-12">
+              資料でわかること
+            </h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-[#F7F5FF] p-6 rounded-lg">
+                <div className="flex items-center mb-4">
+                  <div className="bg-[#7C5CFF] p-2 rounded-full mr-4">
+                    <Check className="h-5 w-5 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-[#2D2D2D]">サービス詳細</h3>
+                </div>
+                <p className="text-[#2D2D2D]">
+                  HR BPaaSサービスの詳細な機能や特徴、他社サービスとの違いについて詳しく解説しています。
+                </p>
+              </div>
+              
+              <div className="bg-[#F7F5FF] p-6 rounded-lg">
+                <div className="flex items-center mb-4">
+                  <div className="bg-[#7C5CFF] p-2 rounded-full mr-4">
+                    <Check className="h-5 w-5 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-[#2D2D2D]">導入効果</h3>
+                </div>
+                <p className="text-[#2D2D2D]">
+                  サービス導入による業務効率化やコスト削減効果、従業員満足度向上などの具体的な効果を数値で示しています。
+                </p>
+              </div>
+              
+              <div className="bg-[#F7F5FF] p-6 rounded-lg">
+                <div className="flex items-center mb-4">
+                  <div className="bg-[#7C5CFF] p-2 rounded-full mr-4">
+                    <Check className="h-5 w-5 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-[#2D2D2D]">導入事例</h3>
+                </div>
+                <p className="text-[#2D2D2D]">
+                  様々な業種・規模の企業における導入事例と、導入後の具体的な成果をご紹介しています。
+                </p>
+              </div>
+              
+              <div className="bg-[#F7F5FF] p-6 rounded-lg">
+                <div className="flex items-center mb-4">
+                  <div className="bg-[#7C5CFF] p-2 rounded-full mr-4">
+                    <Check className="h-5 w-5 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-[#2D2D2D]">料金プラン</h3>
+                </div>
+                <p className="text-[#2D2D2D]">
+                  企業規模や必要な機能に応じた料金プランの詳細と、オプションサービスの内容を確認いただけます。
+                </p>
+              </div>
+            </div>
+            
+            <div className="mt-12 text-center">
+              <Link 
+                href="/contact" 
+                className="inline-flex items-center text-[#7C5CFF] font-medium hover:underline"
+              >
+                詳しい説明をご希望の方はお問い合わせください <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* Document Download Form Section */}
       <section id="download-form" className="py-16 md:py-24 bg-[#F7F5FF]">
         <Container>
@@ -169,76 +239,6 @@ export default function DownloadClient() {
                   </div>
                 </form>
               )}
-            </div>
-          </div>
-        </Container>
-      </section>
-
-      {/* Benefits Section */}
-      <section className="py-16 md:py-24 bg-white">
-        <Container>
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-[#2D2D2D] mb-12">
-              資料でわかること
-            </h2>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-[#F7F5FF] p-6 rounded-lg">
-                <div className="flex items-center mb-4">
-                  <div className="bg-[#7C5CFF] p-2 rounded-full mr-4">
-                    <Check className="h-5 w-5 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold text-[#2D2D2D]">サービス詳細</h3>
-                </div>
-                <p className="text-[#2D2D2D]">
-                  HR BPaaSサービスの詳細な機能や特徴、他社サービスとの違いについて詳しく解説しています。
-                </p>
-              </div>
-              
-              <div className="bg-[#F7F5FF] p-6 rounded-lg">
-                <div className="flex items-center mb-4">
-                  <div className="bg-[#7C5CFF] p-2 rounded-full mr-4">
-                    <Check className="h-5 w-5 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold text-[#2D2D2D]">導入効果</h3>
-                </div>
-                <p className="text-[#2D2D2D]">
-                  サービス導入による業務効率化やコスト削減効果、従業員満足度向上などの具体的な効果を数値で示しています。
-                </p>
-              </div>
-              
-              <div className="bg-[#F7F5FF] p-6 rounded-lg">
-                <div className="flex items-center mb-4">
-                  <div className="bg-[#7C5CFF] p-2 rounded-full mr-4">
-                    <Check className="h-5 w-5 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold text-[#2D2D2D]">導入事例</h3>
-                </div>
-                <p className="text-[#2D2D2D]">
-                  様々な業種・規模の企業における導入事例と、導入後の具体的な成果をご紹介しています。
-                </p>
-              </div>
-              
-              <div className="bg-[#F7F5FF] p-6 rounded-lg">
-                <div className="flex items-center mb-4">
-                  <div className="bg-[#7C5CFF] p-2 rounded-full mr-4">
-                    <Check className="h-5 w-5 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold text-[#2D2D2D]">料金プラン</h3>
-                </div>
-                <p className="text-[#2D2D2D]">
-                  企業規模や必要な機能に応じた料金プランの詳細と、オプションサービスの内容を確認いただけます。
-                </p>
-              </div>
-            </div>
-            
-            <div className="mt-12 text-center">
-              <Link 
-                href="/contact" 
-                className="inline-flex items-center text-[#7C5CFF] font-medium hover:underline"
-              >
-                詳しい説明をご希望の方はお問い合わせください <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
             </div>
           </div>
         </Container>
