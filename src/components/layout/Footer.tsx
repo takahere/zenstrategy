@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -89,11 +89,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Mail size={20} className="mr-3 mt-1 flex-shrink-0" />
-                <span className="text-gray-300">contact@zenstrategy.com</span>
+                <span className="text-gray-300">cs@zenx.jp</span>
               </li>
               <li className="flex items-start">
                 <Phone size={20} className="mr-3 mt-1 flex-shrink-0" />
-                <span className="text-gray-300">(555) 123-4567</span>
+                <span className="text-gray-300">050-6883-9326</span>
+              </li>
+              <li className="flex items-start">
+                <MapPin size={20} className="mr-3 mt-1 flex-shrink-0" />
+                <span className="text-gray-300">〒150-8512 東京都渋谷区桜丘町26-1 セルリアンタワー 15F</span>
               </li>
             </ul>
           </div>

@@ -89,7 +89,7 @@ export default function ContactClient() {
                   </div>
                   <div>
                     <h3 className="font-medium text-[#2D2D2D] mb-1">メールアドレス</h3>
-                    <p className="text-[#2D2D2D]">contact@zenstrategy.com</p>
+                    <p className="text-[#2D2D2D]">cs@zenx.jp</p>
                   </div>
                 </div>
                 
@@ -99,7 +99,7 @@ export default function ContactClient() {
                   </div>
                   <div>
                     <h3 className="font-medium text-[#2D2D2D] mb-1">電話番号</h3>
-                    <p className="text-[#2D2D2D]">03-1234-5678</p>
+                    <p className="text-[#2D2D2D]">050-6883-9326</p>
                     <p className="text-sm text-gray-500">平日 9:00〜18:00</p>
                   </div>
                 </div>
@@ -110,9 +110,9 @@ export default function ContactClient() {
                   </div>
                   <div>
                     <h3 className="font-medium text-[#2D2D2D] mb-1">所在地</h3>
-                    <p className="text-[#2D2D2D]">〒100-0001</p>
-                    <p className="text-[#2D2D2D]">東京都千代田区1-1-1</p>
-                    <p className="text-[#2D2D2D]">ZenStrategyビル 5階</p>
+                    <p className="text-[#2D2D2D]">〒150-8512</p>
+                    <p className="text-[#2D2D2D]">東京都渋谷区桜丘町26-1</p>
+                    <p className="text-[#2D2D2D]">セルリアンタワー 15F</p>
                   </div>
                 </div>
               </div>
