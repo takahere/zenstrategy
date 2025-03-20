@@ -57,34 +57,6 @@ export default function DownloadClient() {
     }, 5000);
   };
 
-  // Available documents
-  const documents = [
-    {
-      id: 'service-overview',
-      title: 'HR BPaaSサービス概要',
-      description: '当社のHR BPaaSサービスの概要、特徴、導入メリットをまとめた資料です。',
-      image: 'https://picsum.photos/id/20/600/400',
-      pages: 15,
-      format: 'PDF'
-    },
-    {
-      id: 'case-studies',
-      title: '導入事例集',
-      description: '様々な業種・規模の企業における導入事例と成果をご紹介します。',
-      image: 'https://picsum.photos/id/21/600/400',
-      pages: 22,
-      format: 'PDF'
-    },
-    {
-      id: 'pricing',
-      title: '料金プラン詳細',
-      description: '各プランの詳細な機能比較と料金体系をご確認いただけます。',
-      image: 'https://picsum.photos/id/22/600/400',
-      pages: 8,
-      format: 'PDF'
-    }
-  ];
-
   return (
     <>
       {/* Hero Section */}
@@ -97,46 +69,6 @@ export default function DownloadClient() {
             <p className="text-lg md:text-xl text-[#2D2D2D] mb-8">
               HR BPaaSサービスの詳細資料をダウンロードいただけます。サービス概要、導入事例、料金プランなど、お役立ち資料をご用意しております。
             </p>
-          </div>
-        </Container>
-      </section>
-
-      {/* Available Documents Section */}
-      <section className="py-16 md:py-24 bg-white">
-        <Container>
-          <h2 className="text-3xl font-bold text-center text-[#2D2D2D] mb-12">
-            ダウンロード可能な資料
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {documents.map((doc) => (
-              <div key={doc.id} className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100">
-                <div className="relative h-48">
-                  <Image
-                    src={doc.image}
-                    alt={doc.title}
-                    fill
-                    className="object-cover"
-                  />
-                  <div className="absolute top-4 right-4 bg-white py-1 px-3 rounded-full text-sm font-medium text-[#2D2D2D]">
-                    {doc.pages}ページ
-                  </div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-[#2D2D2D] mb-2">{doc.title}</h3>
-                  <p className="text-[#2D2D2D] mb-4">{doc.description}</p>
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-500">{doc.format} ファイル</span>
-                    <Link 
-                      href="#download-form" 
-                      className="inline-flex items-center text-[#7C5CFF] font-medium hover:underline"
-                    >
-                      ダウンロード <ArrowRight className="ml-1 h-4 w-4" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
           </div>
         </Container>
       </section>
@@ -169,19 +101,6 @@ export default function DownloadClient() {
                     >
                       <Download className="mr-2 h-5 w-5" /> すべての資料をダウンロード
                     </Button>
-                    
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
-                      {documents.map((doc) => (
-                        <Button 
-                          key={doc.id}
-                          href="#"
-                          variant="outline"
-                          className="text-[#7C5CFF] border-[#7C5CFF] hover:bg-[#F7F5FF] flex items-center justify-center"
-                        >
-                          <FileText className="mr-2 h-4 w-4" /> {doc.title}
-                        </Button>
-                      ))}
-                    </div>
                   </div>
                 </div>
               ) : (
