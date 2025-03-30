@@ -463,6 +463,98 @@ export default function HRServiceClient() {
         </Container>
       </section>
 
+      {/* Recruitment Media Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <Container>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <span className="text-[#7C5CFF]">120媒体以上</span>の運用実績！
+            </h2>
+            <p className="text-2xl md:text-3xl font-bold text-[#2D2D2D]">
+              ターゲットに合わせた採用チャネルの提案が可能です
+            </p>
+          </div>
+          
+          <div className="bg-white border border-gray-200 rounded-lg p-8 shadow-sm">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="Wantedly" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="Green" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="BIZREACH" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="Indeed" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="OfferBox" width={150} height={50} className="object-contain h-10" />
+              </div>
+            </div>
+            
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="ミイダス" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="LinkedIn" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="Forkwell Jobs" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="ミドルの転職" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="エン転職" width={150} height={50} className="object-contain h-10" />
+              </div>
+            </div>
+            
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="複業クラウド" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="type" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="マイナビ転職" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="AMBI" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="doda" width={150} height={50} className="object-contain h-10" />
+              </div>
+            </div>
+            
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="リクナビNEXT" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="LAPRAS" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="転職DRAFT" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="eight career design" width={150} height={50} className="object-contain h-10" />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image src="/medialogo.png" alt="YOUTRUST" width={150} height={50} className="object-contain h-10" />
+              </div>
+            </div>
+            
+            <div className="text-right mt-6">
+              <p className="text-gray-600 font-medium">and more...</p>
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* Target Industries Section */}
       <section className="py-16 md:py-24 bg-white">
         <Container>
