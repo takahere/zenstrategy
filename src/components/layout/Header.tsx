@@ -24,18 +24,21 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link href="/download" className="text-[#2D2D2D] hover:text-[#7C5CFF] px-3 py-2 text-sm font-medium">
-              資料ダウンロード
-            </Link>
           </nav>
 
           {/* Secondary Navigation */}
           <div className="hidden md:flex items-center space-x-4">
             <Link 
+              href="/download" 
+              className="text-[#2D2D2D] hover:text-[#7C5CFF] px-3 py-2 text-sm font-medium"
+            >
+              資料ダウンロード
+            </Link>
+            <Link 
               href="/contact" 
               className="bg-[#7C5CFF] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-[#6a4de6]"
             >
-              お問い合わせ
+              オンライン採用相談
             </Link>
           </div>
 
@@ -72,7 +75,7 @@ const Header = () => {
               className="block px-3 py-2 rounded-md text-base font-medium bg-[#7C5CFF] text-white hover:bg-[#6a4de6]"
               onClick={toggleMenu}
             >
-              お問い合わせ
+              オンライン採用相談
             </Link>
           </div>
         </div>

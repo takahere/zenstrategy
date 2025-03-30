@@ -113,7 +113,7 @@ export default function HRServiceClient() {
                   href="/contact" 
                   className="bg-[#7C5CFF] text-white px-6 py-3 rounded-md font-medium hover:bg-[#6a4de6] transition-colors"
                 >
-                  お問い合わせ
+                  オンライン採用相談
                 </Button>
                 <Button 
                   href="/download" 
@@ -322,7 +322,7 @@ export default function HRServiceClient() {
                 href="/contact" 
                 className="bg-white text-[#7C5CFF] px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors"
               >
-                お問い合わせ
+                オンライン採用相談
               </Button>
               <Button 
                 href="/download" 
