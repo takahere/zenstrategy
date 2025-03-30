@@ -141,49 +141,48 @@ export default function HRServiceClient() {
         </Container>
       </section>
 
-      {/* About Section */}
-      <section className="py-16 md:py-24 bg-[#7C5CFF] text-white">
+      {/* Challenges Section */}
+      <section className="py-16 md:py-24 bg-[#F7F5FF]">
         <Container>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">私たちについて</h2>
-              <p className="text-lg mb-6">
-                中堅・中小・スタートアップ企業向けのHR BPaaSリーディングカンパニー。
-                全米でも有数の規模を誇るHRチームと、テック活用による最先端の人事アウトソーシングを実現しています。
-              </p>
-              <div className="grid grid-cols-2 gap-6 mt-8">
-                <div>
-                  <h3 className="text-2xl font-bold mb-2">100+</h3>
-                  <p className="text-sm">HR専門家</p>
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold mb-2">500+</h3>
-                  <p className="text-sm">支援企業数</p>
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold mb-2">10年+</h3>
-                  <p className="text-sm">業界経験</p>
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold mb-2">24/7</h3>
-                  <p className="text-sm">サポート体制</p>
-                </div>
-              </div>
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#2D2D2D] mb-6">
+              こんな<span className="text-[#7C5CFF]">課題</span>はありませんか？
+            </h2>
+          </div>
+          
+          <div className="flex flex-wrap justify-center gap-4 mb-16">
+            <div className="bg-white px-8 py-4 rounded-full border border-gray-200 shadow-sm hover:shadow transition-shadow">
+              <p className="text-[#2D2D2D] font-medium">面接以外のオペレーションを任せたい！</p>
             </div>
-            
-            <div className="relative">
-              <div className="relative rounded-lg overflow-hidden shadow-xl">
-                <Image
-                  src="https://picsum.photos/id/21/600/800"
-                  alt="Our HR team"
-                  width={600}
-                  height={800}
-                  className="object-cover w-full h-full"
-                />
-              </div>
-              <div className="absolute -top-6 -right-6 w-24 h-24 rounded-full bg-white opacity-20 hidden md:block"></div>
-              <div className="absolute -bottom-6 -left-6 w-16 h-16 rounded-full bg-white opacity-20 hidden md:block"></div>
+            <div className="bg-white px-8 py-4 rounded-full border border-gray-200 shadow-sm hover:shadow transition-shadow">
+              <p className="text-[#2D2D2D] font-medium">採用がわからない！</p>
             </div>
+            <div className="bg-white px-8 py-4 rounded-full border border-gray-200 shadow-sm hover:shadow transition-shadow">
+              <p className="text-[#2D2D2D] font-medium">優秀な採用担当がいない！</p>
+            </div>
+            <div className="bg-white px-8 py-4 rounded-full border border-gray-200 shadow-sm hover:shadow transition-shadow">
+              <p className="text-[#2D2D2D] font-medium">採用業務が忙しくて手が回っていない！</p>
+            </div>
+            <div className="bg-white px-8 py-4 rounded-full border border-gray-200 shadow-sm hover:shadow transition-shadow">
+              <p className="text-[#2D2D2D] font-medium">スカウトを代わりに送信してもらいたい！</p>
+            </div>
+          </div>
+          
+          <div className="text-center mb-16 relative">
+            <div className="absolute left-1/2 -translate-x-1/2 -top-10 transform rotate-180">
+              <div className="w-0 h-0 border-l-[20px] border-l-transparent border-r-[20px] border-r-transparent border-t-[20px] border-t-[#7C5CFF]"></div>
+            </div>
+            <div className="py-8">
+              <h2 className="text-4xl md:text-5xl font-bold">
+                <span className="text-[#7C5CFF]">ZenStrategy</span> ならすべて解決！
+              </h2>
+            </div>
+          </div>
+          
+          <div className="bg-[#FFFDF4] p-8 rounded-lg text-center shadow-sm mb-8">
+            <p className="text-xl font-medium text-[#2D2D2D]">
+              人事経験豊富な<span className="text-[#7C5CFF] font-bold">採用のチーム</span>が、1ヶ月単位で貴社を手伝います！！
+            </p>
           </div>
         </Container>
       </section>
