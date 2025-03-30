@@ -187,6 +187,181 @@ export default function HRServiceClient() {
         </Container>
       </section>
 
+      {/* Recruitment Process Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <Container>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#2D2D2D] mb-10">
+            採用課題に合わせた最適な設計をしながら<br />
+            面接以外の採用業務を代行します！
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+            {/* Design Column */}
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <div className="bg-[#1E355E] text-white text-center text-xl font-bold py-4">
+                設計
+              </div>
+              <div className="grid grid-cols-2 gap-4 p-6">
+                <div className="border border-[#1E355E] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 rounded-full bg-[#1E355E] mb-2 flex items-center justify-center">
+                    <div className="w-3 h-3 rounded-full bg-white"></div>
+                  </div>
+                  <p className="text-sm">要件定義<br />ペルソナ設計</p>
+                </div>
+                <div className="border border-[#1E355E] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 rounded-lg border-2 border-[#1E355E] mb-2 flex items-center justify-center">
+                    <div className="w-0 h-0 border-l-[8px] border-l-transparent border-r-[8px] border-r-transparent border-b-[14px] border-b-[#1E355E]"></div>
+                  </div>
+                  <p className="text-sm">求人票・<br />スカウト文作成</p>
+                </div>
+                <div className="border border-[#1E355E] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 rounded-full border-2 border-[#1E355E] mb-2 flex items-center justify-center">
+                    <div className="w-6 h-6 rounded-full border-2 border-[#1E355E]"></div>
+                  </div>
+                  <p className="text-sm">募集媒体選定</p>
+                </div>
+                <div className="border border-[#1E355E] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 border-2 border-[#1E355E] mb-2 flex items-center justify-center">
+                    <div className="w-8 h-[2px] bg-[#1E355E]"></div>
+                    <div className="w-8 h-[2px] bg-[#1E355E] absolute mt-2"></div>
+                    <div className="w-8 h-[2px] bg-[#1E355E] absolute mt-4"></div>
+                  </div>
+                  <p className="text-sm">選考<br />フロー構築</p>
+                </div>
+                <div className="border border-[#1E355E] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 flex items-center justify-center mb-2">
+                    <div className="w-10 h-[2px] bg-[#1E355E] rotate-45"></div>
+                    <div className="w-10 h-[2px] bg-[#1E355E] -rotate-45 absolute"></div>
+                  </div>
+                  <p className="text-sm">訴求ポイント<br />洗い出し</p>
+                </div>
+                <div className="border border-[#1E355E] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 border-2 border-[#1E355E] mb-2 flex flex-col items-center justify-center">
+                    <div className="w-6 h-[2px] bg-[#1E355E] mb-1"></div>
+                    <div className="w-6 h-[2px] bg-[#1E355E] mb-1"></div>
+                    <div className="w-6 h-[2px] bg-[#1E355E]"></div>
+                  </div>
+                  <p className="text-sm">スカウト送信<br />スケジュール提案</p>
+                </div>
+              </div>
+            </div>
+            
+            {/* Execution Column */}
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <div className="bg-[#7C5CFF] text-white text-center text-xl font-bold py-4">
+                実行
+              </div>
+              <div className="grid grid-cols-2 gap-4 p-6">
+                <div className="border border-[#7C5CFF] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 flex items-center justify-center mb-2">
+                    <div className="w-8 h-10 border-2 border-[#7C5CFF] relative">
+                      <div className="w-0 h-0 border-l-[4px] border-l-transparent border-r-[4px] border-r-transparent border-b-[6px] border-b-[#7C5CFF] absolute right-1 bottom-1"></div>
+                    </div>
+                  </div>
+                  <p className="text-sm">書類選考</p>
+                </div>
+                <div className="border border-[#7C5CFF] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 flex items-center justify-center mb-2">
+                    <div className="w-8 h-8 rounded-full border-2 border-[#7C5CFF]">
+                      <div className="w-2 h-5 bg-[#7C5CFF] rounded-full mx-auto mt-1"></div>
+                    </div>
+                  </div>
+                  <p className="text-sm">スカウト<br />対象者選定</p>
+                </div>
+                <div className="border border-[#7C5CFF] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 flex items-center justify-center mb-2">
+                    <div className="w-8 h-10 border-2 border-[#7C5CFF]"></div>
+                  </div>
+                  <p className="text-sm">面談・面接<br />の日程調整</p>
+                </div>
+                <div className="border border-[#7C5CFF] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 flex items-center justify-center mb-2">
+                    <div className="rounded-full w-8 h-8 border-2 border-[#7C5CFF] flex items-center justify-center">
+                      <div className="w-3 h-3 rounded-full border-[1px] border-[#7C5CFF]"></div>
+                    </div>
+                  </div>
+                  <p className="text-sm">スカウト送信</p>
+                </div>
+                <div className="border border-[#7C5CFF] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 flex items-center justify-center mb-2">
+                    <div className="w-8 h-1 bg-[#7C5CFF]"></div>
+                  </div>
+                  <p className="text-sm">応募者からの<br />問い合わせ対応</p>
+                </div>
+                <div className="border border-[#7C5CFF] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 flex items-center justify-center mb-2">
+                    <div className="w-4 h-4 rounded-full border-2 border-[#7C5CFF] mr-1"></div>
+                    <div className="w-4 h-4 rounded-full border-2 border-[#7C5CFF] ml-1"></div>
+                  </div>
+                  <p className="text-sm">エージェント<br />マネジメント</p>
+                </div>
+              </div>
+            </div>
+            
+            {/* Review Column */}
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <div className="bg-[#1E355E] text-white text-center text-xl font-bold py-4">
+                振り返り・改善
+              </div>
+              <div className="grid grid-cols-2 gap-4 p-6">
+                <div className="border border-[#1E355E] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 flex items-center justify-center mb-2">
+                    <div className="w-10 h-[2px] bg-[#1E355E]"></div>
+                    <div className="h-6 w-[2px] bg-[#1E355E] absolute"></div>
+                  </div>
+                  <p className="text-sm">オンライン<br />定例MTG</p>
+                </div>
+                <div className="border border-[#1E355E] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 flex items-center justify-center mb-2">
+                    <div className="relative">
+                      <div className="w-6 h-[2px] bg-[#1E355E] rotate-45"></div>
+                      <div className="w-6 h-[2px] bg-[#1E355E] -rotate-45"></div>
+                    </div>
+                  </div>
+                  <p className="text-sm">数値分析</p>
+                </div>
+                <div className="border border-[#1E355E] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 flex items-center justify-center mb-2">
+                    <div className="relative w-8 h-8">
+                      <div className="w-8 h-[2px] bg-[#1E355E] absolute top-2"></div>
+                      <div className="w-4 h-[2px] bg-[#1E355E] rotate-45 absolute top-4 right-0"></div>
+                    </div>
+                  </div>
+                  <p className="text-sm">改善施策の案</p>
+                </div>
+                <div className="border border-[#1E355E] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 flex items-center justify-center mb-2">
+                    <div className="w-8 h-8 border-2 border-[#1E355E] flex items-center justify-center">
+                      <div className="w-5 h-[2px] bg-[#1E355E]"></div>
+                      <div className="h-5 w-[2px] bg-[#1E355E] absolute"></div>
+                    </div>
+                  </div>
+                  <p className="text-sm">ターゲット<br />再設定</p>
+                </div>
+                <div className="border border-[#1E355E] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 flex items-center justify-center mb-2">
+                    <div className="w-8 h-[2px] bg-[#1E355E] mb-1"></div>
+                    <div className="w-8 h-[2px] bg-[#1E355E] mb-1"></div>
+                    <div className="w-8 h-[2px] bg-[#1E355E]"></div>
+                  </div>
+                  <p className="text-sm">求人票・スカウト<br />リライト</p>
+                </div>
+                <div className="border border-[#1E355E] rounded-lg p-4 flex flex-col items-center text-center">
+                  <div className="w-12 h-12 flex items-center justify-center mb-2">
+                    <div className="w-8 h-8 rounded-full border-2 border-[#1E355E] relative">
+                      <div className="absolute w-10 h-[2px] bg-[#1E355E] rotate-45 top-3"></div>
+                    </div>
+                  </div>
+                  <p className="text-sm">代行業務の<br />変更</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <p className="text-center text-gray-600 mt-6">※面談・面接はお客様にて実施いただきます。</p>
+        </Container>
+      </section>
+
       {/* Target Industries Section */}
       <section className="py-16 md:py-24 bg-white">
         <Container>
