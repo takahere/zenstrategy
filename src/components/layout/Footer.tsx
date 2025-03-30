@@ -39,11 +39,6 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">クイックリンク</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/pricing" className="text-gray-300 hover:text-white">
-                  サービス内容
-                </Link>
-              </li>
-              <li>
                 <Link href="/download" className="text-gray-300 hover:text-white">
                   資料ダウンロード
                 </Link>
