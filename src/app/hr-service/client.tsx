@@ -362,6 +362,107 @@ export default function HRServiceClient() {
         </Container>
       </section>
 
+      {/* Service Delivery Structure Section */}
+      <section className="py-16 md:py-24 bg-[#F7F5FF]">
+        <Container>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#2D2D2D] mb-10">
+            ZenStrategy のサービス提供体制
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
+            {/* お客様側 */}
+            <div className="border border-gray-200 rounded-lg overflow-hidden h-full flex flex-col">
+              <div className="bg-[#1E355E] text-white text-center text-xl font-bold py-4">
+                お客様
+              </div>
+              <div className="flex-grow p-8 flex flex-col justify-center items-center">
+                <div className="mb-6 flex items-center">
+                  <div className="w-14 h-14 mr-5">
+                    <div className="w-14 h-14 border-2 border-[#1E355E] flex flex-col items-center justify-center">
+                      <div className="grid grid-cols-3 gap-1 p-1">
+                        <div className="w-2 h-2 bg-[#1E355E]"></div>
+                        <div className="w-2 h-2 bg-[#1E355E]"></div>
+                        <div className="w-2 h-2 bg-[#1E355E]"></div>
+                        <div className="w-2 h-2 bg-[#1E355E]"></div>
+                        <div className="w-2 h-2 bg-[#1E355E]"></div>
+                        <div className="w-2 h-2 bg-[#1E355E]"></div>
+                        <div className="w-2 h-2 bg-[#1E355E]"></div>
+                        <div className="w-2 h-2 bg-[#1E355E]"></div>
+                        <div className="w-2 h-2 bg-[#1E355E]"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center mb-2">
+                      <div className="w-10 h-10 rounded-full bg-gray-300"></div>
+                    </div>
+                    <p className="text-xl font-bold text-[#2D2D2D]">ご担当者</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* ZenStrategy側 */}
+            <div className="border border-gray-200 rounded-lg overflow-hidden h-full flex flex-col">
+              <div className="bg-[#7C5CFF] text-white text-center text-xl font-bold py-4">
+                ZenStrategy
+              </div>
+              <div className="flex-grow p-8 flex flex-col justify-start items-center">
+                <div className="w-full max-w-xs mb-10">
+                  <div className="border-2 border-dashed border-[#7C5CFF] rounded-lg p-4 text-center">
+                    <div className="flex justify-center mb-3">
+                      <div className="w-14 h-14 rounded-full bg-gray-200 flex items-center justify-center">
+                        <div className="w-8 h-8 rounded-full bg-gray-300"></div>
+                      </div>
+                    </div>
+                    <p className="text-lg font-bold text-[#2D2D2D]">マネージャー</p>
+                    <p className="text-sm text-gray-600">統括・クオリティ担保</p>
+                  </div>
+                </div>
+                
+                <div className="grid grid-cols-2 gap-6 w-full max-w-md">
+                  <div className="border-2 border-[#7C5CFF] rounded-lg p-4 text-center">
+                    <div className="flex justify-center mb-3">
+                      <div className="w-14 h-14 rounded-full bg-gray-200 flex items-center justify-center">
+                        <div className="w-8 h-8 rounded-full bg-gray-300"></div>
+                      </div>
+                    </div>
+                    <p className="text-lg font-bold text-[#2D2D2D]">採用リーダー</p>
+                    <p className="text-sm text-gray-600">PM/コンサルティング</p>
+                  </div>
+                  
+                  <div className="border-2 border-[#7C5CFF] rounded-lg p-4 text-center">
+                    <div className="flex justify-center mb-3">
+                      <div className="w-14 h-14 rounded-full bg-gray-200 flex items-center justify-center">
+                        <div className="w-8 h-8 rounded-full bg-gray-300"></div>
+                      </div>
+                    </div>
+                    <p className="text-lg font-bold text-[#2D2D2D]">メンバー</p>
+                    <p className="text-sm text-gray-600">実業務</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* 矢印 */}
+          <div className="hidden md:flex justify-center my-4">
+            <div className="w-20 h-20 relative flex items-center justify-center">
+              <div className="absolute left-0 w-full h-2 bg-[#7C5CFF]"></div>
+              <div className="absolute left-0 w-4 h-4 rounded-full bg-[#7C5CFF]"></div>
+              <div className="absolute right-0 w-4 h-4 rounded-full bg-[#7C5CFF]"></div>
+            </div>
+          </div>
+          {/* モバイル用矢印 */}
+          <div className="flex md:hidden justify-center my-4">
+            <div className="w-2 h-20 bg-[#7C5CFF] relative">
+              <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-[#7C5CFF]"></div>
+              <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-[#7C5CFF]"></div>
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* Target Industries Section */}
       <section className="py-16 md:py-24 bg-white">
         <Container>
