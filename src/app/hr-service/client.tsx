@@ -636,120 +636,200 @@ export default function HRServiceClient() {
         </Container>
       </section>
 
-      {/* Target Industries Section */}
+      {/* ステップ導入プロセス Section */}
       <section className="py-16 md:py-24 bg-white">
         <Container>
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#2D2D2D] mb-4">
-              どんな企業を支援しているか
+            <h2 className="text-4xl md:text-5xl font-bold mb-8">
+              初回お打ち合わせから<span className="text-[#7C5CFF]">最短5営業日</span>で開始
             </h2>
-            <p className="text-lg text-[#2D2D2D] max-w-3xl mx-auto">
-              業界や規模を問わず、人事課題を抱えるあらゆる企業をサポートしています。
-              特に以下の業界に強みを持っています。
-            </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {targetIndustries.map((industry, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-md border border-gray-100 hover:border-[#7C5CFF] transition-colors">
-                <div className="mb-4">
-                  {industry.icon}
-                </div>
-                <h3 className="text-xl font-bold text-[#2D2D2D] mb-2">{industry.name}</h3>
-                <p className="text-[#2D2D2D]">{industry.description}</p>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+            {/* Step 1 */}
+            <div className="flex flex-col">
+              <div className="bg-[#AB8BFF] rounded-t-lg py-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-white text-center">Step 1</h3>
               </div>
-            ))}
+              <div className="flex-grow border border-gray-200 rounded-b-lg p-6 flex flex-col items-center bg-white">
+                <p className="text-[#AB8BFF] text-xl font-medium mb-4">today</p>
+                <div className="w-20 h-20 rounded-full border-2 border-[#AB8BFF] flex items-center justify-center mb-6">
+                  <div className="w-12 h-12 flex flex-col items-center justify-center">
+                    <div className="w-10 h-1 bg-[#AB8BFF] mb-2"></div>
+                    <div className="w-6 h-1 bg-[#AB8BFF]"></div>
+                  </div>
+                </div>
+                <h4 className="text-xl font-bold text-[#2D2D2D] mb-2 text-center">初回打ち合わせ</h4>
+                <p className="text-sm text-center">
+                  サービス概要説明<br />
+                  ヒアリング
+                </p>
+              </div>
+              <div className="hidden md:flex justify-center mt-4">
+                <div className="w-full h-4 flex items-center justify-center relative">
+                  <div className="w-full h-1 bg-[#AB8BFF]"></div>
+                  <div className="absolute right-0 transform translate-x-1/2">
+                    <div className="w-3 h-3 transform rotate-45 border-t-2 border-r-2 border-[#AB8BFF]"></div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex md:hidden justify-center mt-4 mb-4">
+                <div className="w-4 h-8 flex justify-center items-center relative">
+                  <div className="w-1 h-8 bg-[#AB8BFF]"></div>
+                  <div className="absolute bottom-0 transform translate-y-1/2">
+                    <div className="w-3 h-3 transform rotate-45 border-r-2 border-b-2 border-[#AB8BFF]"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Step 2 */}
+            <div className="flex flex-col">
+              <div className="bg-[#AB8BFF] rounded-t-lg py-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-white text-center">Step 2</h3>
+              </div>
+              <div className="flex-grow border border-gray-200 rounded-b-lg p-6 flex flex-col items-center bg-white">
+                <div className="h-12 mb-4"></div>
+                <div className="w-20 h-20 flex items-center justify-center mb-6">
+                  <div className="flex">
+                    <div className="w-10 h-10 bg-[#AB8BFF] rounded-lg mr-2"></div>
+                    <div className="w-10 h-10 bg-[#AB8BFF] rounded-lg ml-4 mt-4"></div>
+                  </div>
+                </div>
+                <h4 className="text-xl font-bold text-[#2D2D2D] mb-2 text-center">詳細打ち合わせ</h4>
+                <p className="text-sm text-center">
+                  業務内容・契約内容の<br />
+                  すり合わせ
+                </p>
+              </div>
+              <div className="hidden md:flex justify-center mt-4">
+                <div className="w-full h-4 flex items-center justify-center relative">
+                  <div className="w-full h-1 bg-[#AB8BFF]"></div>
+                  <div className="absolute right-0 transform translate-x-1/2">
+                    <div className="w-3 h-3 transform rotate-45 border-t-2 border-r-2 border-[#AB8BFF]"></div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex md:hidden justify-center mt-4 mb-4">
+                <div className="w-4 h-8 flex justify-center items-center relative">
+                  <div className="w-1 h-8 bg-[#AB8BFF]"></div>
+                  <div className="absolute bottom-0 transform translate-y-1/2">
+                    <div className="w-3 h-3 transform rotate-45 border-r-2 border-b-2 border-[#AB8BFF]"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Step 3 */}
+            <div className="flex flex-col">
+              <div className="bg-[#AB8BFF] rounded-t-lg py-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-white text-center">Step 3</h3>
+              </div>
+              <div className="flex-grow border border-gray-200 rounded-b-lg p-6 flex flex-col items-center bg-white">
+                <div className="h-12 mb-4"></div>
+                <div className="w-20 h-20 flex items-center justify-center mb-6">
+                  <div className="w-16 h-16">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full text-[#AB8BFF]">
+                      <path d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z" stroke="currentColor" strokeWidth="2"/>
+                      <path d="M9 10.5L11.5 13L15 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                </div>
+                <h4 className="text-xl font-bold text-[#2D2D2D] mb-2 text-center">契約締結</h4>
+                <p className="text-sm text-center"></p>
+              </div>
+              <div className="hidden md:flex justify-center mt-4">
+                <div className="w-full h-4 flex items-center justify-center relative">
+                  <div className="w-full h-1 bg-[#AB8BFF]"></div>
+                  <div className="absolute right-0 transform translate-x-1/2">
+                    <div className="w-3 h-3 transform rotate-45 border-t-2 border-r-2 border-[#AB8BFF]"></div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex md:hidden justify-center mt-4 mb-4">
+                <div className="w-4 h-8 flex justify-center items-center relative">
+                  <div className="w-1 h-8 bg-[#AB8BFF]"></div>
+                  <div className="absolute bottom-0 transform translate-y-1/2">
+                    <div className="w-3 h-3 transform rotate-45 border-r-2 border-b-2 border-[#AB8BFF]"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Step 4 */}
+            <div className="flex flex-col">
+              <div className="bg-[#AB8BFF] rounded-t-lg py-4">
+                <h3 className="text-2xl md:text-3xl font-bold text-white text-center">Step 4</h3>
+              </div>
+              <div className="flex-grow border border-gray-200 rounded-b-lg p-6 flex flex-col items-center bg-white">
+                <div className="h-12 mb-4"></div>
+                <div className="w-20 h-20 flex items-center justify-center mb-6">
+                  <div className="w-16 h-16">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full text-[#AB8BFF]">
+                      <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
+                  </div>
+                </div>
+                <h4 className="text-xl font-bold text-[#2D2D2D] mb-2 text-center">キックオフMTG</h4>
+                <p className="text-sm text-center">
+                  業務内容・契約内容の<br />
+                  すり合わせ
+                </p>
+              </div>
+            </div>
           </div>
+          
+          <p className="text-center text-gray-600 mt-8">※状況によりこの限りではございません。</p>
         </Container>
       </section>
 
-      {/* Services Section */}
-      <section className="py-16 md:py-24 bg-[#F7F5FF]">
+      {/* CTA Buttons Section */}
+      <section className="py-12 md:py-20 bg-white">
         <Container>
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#2D2D2D] mb-4">
-              私たちのサービス
-            </h2>
-            <p className="text-lg text-[#2D2D2D] max-w-3xl mx-auto">
-              人事業務のあらゆる側面をカバーする包括的なサービスを提供しています。
-            </p>
-          </div>
-          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {services.map((service, index) => (
-              <div key={index} className="bg-white p-8 rounded-lg shadow-md flex">
-                <div className="mr-6 flex-shrink-0">
-                  {service.icon}
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-[#2D2D2D] mb-2">{service.title}</h3>
-                  <p className="text-[#2D2D2D]">{service.description}</p>
-                </div>
+            {/* 資料ダウンロードボタン */}
+            <div className="relative rounded-3xl overflow-hidden shadow-lg">
+              <div className="absolute top-0 left-0 w-full bg-[#E6BE54] text-center py-3 rounded-t-3xl">
+                <p className="text-[#333] font-bold">3分で「まるごと人事」がわかる!!</p>
               </div>
-            ))}
-          </div>
-        </Container>
-      </section>
-
-      {/* Why Choose Us Section */}
-      <section className="py-16 md:py-24 bg-white">
-        <Container>
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#2D2D2D] mb-4">
-              選ばれる理由
-            </h2>
-            <p className="text-lg text-[#2D2D2D] max-w-3xl mx-auto">
-              ZenStrategyが多くの企業から選ばれる理由をご紹介します。
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {reasons.map((reason, index) => (
-              <div 
-                key={index} 
-                className="bg-[#F7F5FF] p-6 rounded-lg text-center"
-              >
-                <h3 className="text-xl font-bold text-[#7C5CFF] mb-4">{reason.title}</h3>
-                <p className="text-[#2D2D2D]">{reason.description}</p>
-              </div>
-            ))}
-          </div>
-        </Container>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="py-16 md:py-24 bg-[#F7F5FF]">
-        <Container>
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#2D2D2D] mb-4">
-              お客様の声
-            </h2>
-            <p className="text-lg text-[#2D2D2D] max-w-3xl mx-auto">
-              私たちのサービスを導入いただいたお客様からの声をご紹介します。
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                <div className="flex items-center mb-4">
-                  <div className="mr-4">
-                    <Image
-                      src={testimonial.image}
-                      alt={testimonial.author}
-                      width={60}
-                      height={60}
-                      className="rounded-full"
-                    />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-[#2D2D2D]">{testimonial.author}</h3>
-                    <p className="text-sm text-gray-600">{testimonial.position}</p>
-                  </div>
+              <div className="pt-14 pb-8 px-8 bg-[#333] flex flex-col items-center justify-center">
+                <div className="mb-4">
+                  <Image 
+                    src="/medialogo.png" 
+                    alt="資料サンプル" 
+                    width={100} 
+                    height={80} 
+                    className="object-contain"
+                  />
                 </div>
-                <p className="text-[#2D2D2D] italic">"{testimonial.quote}"</p>
+                <Link href="/download" className="flex items-center justify-between w-full bg-[#E6BE54] text-[#333] font-bold px-8 py-4 rounded-full hover:bg-opacity-90 transition-all">
+                  <span className="text-xl">資料をダウンロード</span>
+                  <span className="text-2xl">&gt;</span>
+                </Link>
               </div>
-            ))}
+            </div>
+            
+            {/* オンライン採用相談ボタン */}
+            <div className="relative rounded-3xl overflow-hidden shadow-lg">
+              <div className="absolute top-0 left-0 w-full bg-[#333] text-center py-3 rounded-t-3xl">
+                <p className="text-white font-bold">相談無料！採用のお悩みを伺います!!</p>
+              </div>
+              <div className="pt-14 pb-8 px-8 bg-[#F5F5F5] flex flex-col items-center justify-center">
+                <div className="mb-4">
+                  <Image 
+                    src="/medialogo.png" 
+                    alt="相談イメージ" 
+                    width={100} 
+                    height={80} 
+                    className="object-contain"
+                  />
+                </div>
+                <Link href="/contact" className="flex items-center justify-between w-full bg-[#E6BE54] text-[#333] font-bold px-8 py-4 rounded-full hover:bg-opacity-90 transition-all">
+                  <span className="text-xl">オンライン採用相談</span>
+                  <span className="text-2xl">&gt;</span>
+                </Link>
+              </div>
+            </div>
           </div>
         </Container>
       </section>
