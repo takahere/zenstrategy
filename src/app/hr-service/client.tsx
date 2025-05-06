@@ -582,6 +582,55 @@ export default function HRServiceClient() {
         </Container>
       </section>
 
+      {/* プロフェッショナル紹介セクション */}
+      <section className="py-16 md:py-24 bg-white">
+        <Container>
+          <div className="max-w-5xl mx-auto text-center mb-12">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-[#7C5CFF]">
+              採用を"戦略から一緒に創る"パートナーに。
+            </h2>
+            <p className="text-lg md:text-2xl font-semibold text-[#2D2D2D] mb-8">
+              経験豊富なプロが、上流から伴走。貴社の採用成功にコミットします。
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            {/* 玉地秀光 */}
+            <div className="flex flex-col items-center bg-[#F7F5FF] rounded-2xl p-6 shadow-sm">
+              <Image src="/member_tamachi.jpg" alt="玉地秀光" width={180} height={180} className="rounded-xl object-cover mb-4" />
+              <h3 className="text-xl font-bold text-[#7C5CFF] mb-2">玉地 秀光</h3>
+              <p className="text-sm font-semibold text-[#2D2D2D] mb-2">
+                「年間1,000人の学生を動かす就活コミュニティ運営実績と10年以上の業界知見で、上位校採用支援に強みを発揮する採用支援のベテラン」
+              </p>
+              <p className="text-xs text-left text-[#2D2D2D]">
+                2010年、大学4年次に新卒採用支援を行う株式会社オトラディションにてインターン入社。2013年卒業後取締役に就任。総合商社、コンサル、デベロッパー、ITベンチャーなどの新卒採用コンサルティング/母集団形成を行う。2024年3月から、家族の転勤に伴い海外移住し、採用代行事業、中途職種エージェント、新卒母集団形成支援などを担う。年間1000人の学生を集める就活コミュニティを運営し、上位校の採用支援や母集団形成が得意領域。10年以上の人材業界の知見やつながりを生かし、伴走して支援を行う。
+              </p>
+            </div>
+            {/* 金丸想 */}
+            <div className="flex flex-col items-center bg-[#F7F5FF] rounded-2xl p-6 shadow-sm">
+              <Image src="/member_kanemaru.jpg" alt="金丸想" width={180} height={180} className="rounded-xl object-cover mb-4" />
+              <h3 className="text-xl font-bold text-[#7C5CFF] mb-2">金丸 想</h3>
+              <p className="text-sm font-semibold text-[#2D2D2D] mb-2">
+                「スタートアップの組織と採用戦略を牽引し、実績で多業界採用を実現する実践派プロフェッショナル」
+              </p>
+              <p className="text-xs text-left text-[#2D2D2D]">
+                2016年にINCLUSIVE株式会社へ新卒入社し、Webメディアの営業支援・コンサルに従事。2018年からは株式会社マスメディアンにて、広告・Web業界向けの採用支援や新卒採用メディアの企画運営担当。2020年よりVISITS Technologies株式会社にてスタートアップ向け採用支援事業の立ち上げに携わるとともに、自社の採用業務にも戦略設計の上流工程から従事し、組織づくりに貢献。また、個人としてもRPOとして複数のスタートアップの採用支援に参画しており、幅広い業界・フェーズの企業に対して採用面から価値提供している。
+              </p>
+            </div>
+            {/* 金田千裕 */}
+            <div className="flex flex-col items-center bg-[#F7F5FF] rounded-2xl p-6 shadow-sm">
+              <Image src="/member_kaneda.jpg" alt="金田千裕" width={180} height={180} className="rounded-xl object-cover mb-4" />
+              <h3 className="text-xl font-bold text-[#7C5CFF] mb-2">金田 千裕</h3>
+              <p className="text-sm font-semibold text-[#2D2D2D] mb-2">
+                「1,000名以上の採用成功を支え、求人広告やSNSを駆使した全方位的な採用支援で中小〜大手企業の成長を後押しする採用戦略のパートナー」
+              </p>
+              <p className="text-xs text-left text-[#2D2D2D]">
+                2017年にリクルートの求人広告代理店にて営業と採用オウンドメディア立ち上げを経験。中小企業から大手企業の広告、リファーラル、SNSを使った採用成功のための支援を幅広く行う。事業の成長を採用の面から支えるため、1,000名以上の採用成功の再現性を実現させた。2020年より飲食経営コンサルティングのスタートアップへ参画する傍ら、スタートアップやベンチャー、リレーション・プロダクションやヘッドハンターやビルのメンターのメンターリングを受けながら事業開発を実施。現在は、採用コンサルタントとして主にスタートアップの人材獲得戦略からRPO、SNSを使った採用支援までを行う。
+              </p>
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* Target Industries Section */}
       <section className="py-16 md:py-24 bg-white">
         <Container>
