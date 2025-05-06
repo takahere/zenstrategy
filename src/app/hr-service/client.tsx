@@ -636,6 +636,54 @@ export default function HRServiceClient() {
         </Container>
       </section>
 
+      {/* CTA Buttons Section */}
+      <section className="py-12 md:py-20 bg-white">
+        <Container>
+          <div className="text-center max-w-4xl mx-auto mb-10">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#2D2D2D] mb-4">
+              採用の悩みを解決する一歩を踏み出しませんか？
+            </h2>
+            <p className="text-lg text-[#2D2D2D] mb-8">
+              採用のプロフェッショナルによるサポートで、貴社の課題を解決します
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* 資料ダウンロードボタン */}
+            <div className="bg-[#F7F5FF] border border-[#7C5CFF] rounded-lg p-8 text-center shadow-sm">
+              <h3 className="text-2xl font-bold text-[#1E355E] mb-3">
+                3分で「まるごと人事」がわかる
+              </h3>
+              <p className="mb-6 text-[#2D2D2D]">
+                サービス詳細や料金体系など、すべてをコンパクトにまとめた資料をご覧いただけます
+              </p>
+              <Button 
+                href="/download" 
+                className="bg-[#7C5CFF] text-white px-8 py-3 rounded-md font-medium hover:bg-[#6a4de6] transition-colors w-full sm:w-auto"
+              >
+                資料ダウンロード <ArrowRight className="ml-2 h-4 w-4 inline-block" />
+              </Button>
+            </div>
+            
+            {/* オンライン採用相談ボタン */}
+            <div className="bg-[#F7F5FF] border border-[#7C5CFF] rounded-lg p-8 text-center shadow-sm">
+              <h3 className="text-2xl font-bold text-[#1E355E] mb-3">
+                無料相談で採用の悩みを解決
+              </h3>
+              <p className="mb-6 text-[#2D2D2D]">
+                お客様の課題に合わせた最適な採用戦略をご提案します。まずはお気軽にご相談ください
+              </p>
+              <Button 
+                href="/contact" 
+                className="bg-[#7C5CFF] text-white px-8 py-3 rounded-md font-medium hover:bg-[#6a4de6] transition-colors w-full sm:w-auto"
+              >
+                オンライン採用相談 <ArrowRight className="ml-2 h-4 w-4 inline-block" />
+              </Button>
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* 支援内容について Section */}
       <section className="py-16 md:py-24 bg-[#F7F5FF]">
         <Container>
@@ -844,201 +892,6 @@ export default function HRServiceClient() {
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
-        </Container>
-      </section>
-
-      {/* ステップ導入プロセス Section */}
-      <section className="py-16 md:py-24 bg-white">
-        <Container>
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-8">
-              初回お打ち合わせから<span className="text-[#7C5CFF]">最短5営業日</span>で開始
-            </h2>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-            {/* Step 1 */}
-            <div className="flex flex-col">
-              <div className="bg-[#AB8BFF] rounded-t-lg py-4">
-                <h3 className="text-2xl md:text-3xl font-bold text-white text-center">Step 1</h3>
-              </div>
-              <div className="flex-grow border border-gray-200 rounded-b-lg p-6 flex flex-col items-center bg-white">
-                <p className="text-[#AB8BFF] text-xl font-medium mb-4">today</p>
-                <div className="w-20 h-20 rounded-full border-2 border-[#AB8BFF] flex items-center justify-center mb-6">
-                  <div className="w-12 h-12 flex flex-col items-center justify-center">
-                    <div className="w-10 h-1 bg-[#AB8BFF] mb-2"></div>
-                    <div className="w-6 h-1 bg-[#AB8BFF]"></div>
-                  </div>
-                </div>
-                <h4 className="text-xl font-bold text-[#2D2D2D] mb-2 text-center">初回打ち合わせ</h4>
-                <p className="text-sm text-center">
-                  サービス概要説明<br />
-                  ヒアリング
-                </p>
-              </div>
-              <div className="hidden md:flex justify-center mt-4">
-                <div className="w-full h-4 flex items-center justify-center relative">
-                  <div className="w-full h-1 bg-[#AB8BFF]"></div>
-                  <div className="absolute right-0 transform translate-x-1/2">
-                    <div className="w-3 h-3 transform rotate-45 border-t-2 border-r-2 border-[#AB8BFF]"></div>
-                  </div>
-                </div>
-              </div>
-              <div className="flex md:hidden justify-center mt-4 mb-4">
-                <div className="w-4 h-8 flex justify-center items-center relative">
-                  <div className="w-1 h-8 bg-[#AB8BFF]"></div>
-                  <div className="absolute bottom-0 transform translate-y-1/2">
-                    <div className="w-3 h-3 transform rotate-45 border-r-2 border-b-2 border-[#AB8BFF]"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            {/* Step 2 */}
-            <div className="flex flex-col">
-              <div className="bg-[#AB8BFF] rounded-t-lg py-4">
-                <h3 className="text-2xl md:text-3xl font-bold text-white text-center">Step 2</h3>
-              </div>
-              <div className="flex-grow border border-gray-200 rounded-b-lg p-6 flex flex-col items-center bg-white">
-                <div className="h-12 mb-4"></div>
-                <div className="w-20 h-20 flex items-center justify-center mb-6">
-                  <div className="flex">
-                    <div className="w-10 h-10 bg-[#AB8BFF] rounded-lg mr-2"></div>
-                    <div className="w-10 h-10 bg-[#AB8BFF] rounded-lg ml-4 mt-4"></div>
-                  </div>
-                </div>
-                <h4 className="text-xl font-bold text-[#2D2D2D] mb-2 text-center">詳細打ち合わせ</h4>
-                <p className="text-sm text-center">
-                  業務内容・契約内容の<br />
-                  すり合わせ
-                </p>
-              </div>
-              <div className="hidden md:flex justify-center mt-4">
-                <div className="w-full h-4 flex items-center justify-center relative">
-                  <div className="w-full h-1 bg-[#AB8BFF]"></div>
-                  <div className="absolute right-0 transform translate-x-1/2">
-                    <div className="w-3 h-3 transform rotate-45 border-t-2 border-r-2 border-[#AB8BFF]"></div>
-                  </div>
-                </div>
-              </div>
-              <div className="flex md:hidden justify-center mt-4 mb-4">
-                <div className="w-4 h-8 flex justify-center items-center relative">
-                  <div className="w-1 h-8 bg-[#AB8BFF]"></div>
-                  <div className="absolute bottom-0 transform translate-y-1/2">
-                    <div className="w-3 h-3 transform rotate-45 border-r-2 border-b-2 border-[#AB8BFF]"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            {/* Step 3 */}
-            <div className="flex flex-col">
-              <div className="bg-[#AB8BFF] rounded-t-lg py-4">
-                <h3 className="text-2xl md:text-3xl font-bold text-white text-center">Step 3</h3>
-              </div>
-              <div className="flex-grow border border-gray-200 rounded-b-lg p-6 flex flex-col items-center bg-white">
-                <div className="h-12 mb-4"></div>
-                <div className="w-20 h-20 flex items-center justify-center mb-6">
-                  <div className="w-16 h-16">
-                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full text-[#AB8BFF]">
-                      <path d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z" stroke="currentColor" strokeWidth="2"/>
-                      <path d="M9 10.5L11.5 13L15 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
-                </div>
-                <h4 className="text-xl font-bold text-[#2D2D2D] mb-2 text-center">契約締結</h4>
-                <p className="text-sm text-center"></p>
-              </div>
-              <div className="hidden md:flex justify-center mt-4">
-                <div className="w-full h-4 flex items-center justify-center relative">
-                  <div className="w-full h-1 bg-[#AB8BFF]"></div>
-                  <div className="absolute right-0 transform translate-x-1/2">
-                    <div className="w-3 h-3 transform rotate-45 border-t-2 border-r-2 border-[#AB8BFF]"></div>
-                  </div>
-                </div>
-              </div>
-              <div className="flex md:hidden justify-center mt-4 mb-4">
-                <div className="w-4 h-8 flex justify-center items-center relative">
-                  <div className="w-1 h-8 bg-[#AB8BFF]"></div>
-                  <div className="absolute bottom-0 transform translate-y-1/2">
-                    <div className="w-3 h-3 transform rotate-45 border-r-2 border-b-2 border-[#AB8BFF]"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            {/* Step 4 */}
-            <div className="flex flex-col">
-              <div className="bg-[#AB8BFF] rounded-t-lg py-4">
-                <h3 className="text-2xl md:text-3xl font-bold text-white text-center">Step 4</h3>
-              </div>
-              <div className="flex-grow border border-gray-200 rounded-b-lg p-6 flex flex-col items-center bg-white">
-                <div className="h-12 mb-4"></div>
-                <div className="w-20 h-20 flex items-center justify-center mb-6">
-                  <div className="w-16 h-16">
-                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full text-[#AB8BFF]">
-                      <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                  </div>
-                </div>
-                <h4 className="text-xl font-bold text-[#2D2D2D] mb-2 text-center">キックオフMTG</h4>
-                <p className="text-sm text-center">
-                  業務内容・契約内容の<br />
-                  すり合わせ
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <p className="text-center text-gray-600 mt-8">※状況によりこの限りではございません。</p>
-        </Container>
-      </section>
-
-      {/* CTA Buttons Section */}
-      <section className="py-12 md:py-20 bg-white">
-        <Container>
-          <div className="text-center max-w-4xl mx-auto mb-10">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#2D2D2D] mb-4">
-              採用の悩みを解決する一歩を踏み出しませんか？
-            </h2>
-            <p className="text-lg text-[#2D2D2D] mb-8">
-              採用のプロフェッショナルによるサポートで、貴社の課題を解決します
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* 資料ダウンロードボタン */}
-            <div className="bg-[#F7F5FF] border border-[#7C5CFF] rounded-lg p-8 text-center shadow-sm">
-              <h3 className="text-2xl font-bold text-[#1E355E] mb-3">
-                3分で「まるごと人事」がわかる
-              </h3>
-              <p className="mb-6 text-[#2D2D2D]">
-                サービス詳細や料金体系など、すべてをコンパクトにまとめた資料をご覧いただけます
-              </p>
-              <Button 
-                href="/download" 
-                className="bg-[#7C5CFF] text-white px-8 py-3 rounded-md font-medium hover:bg-[#6a4de6] transition-colors w-full sm:w-auto"
-              >
-                資料ダウンロード <ArrowRight className="ml-2 h-4 w-4 inline-block" />
-              </Button>
-            </div>
-            
-            {/* オンライン採用相談ボタン */}
-            <div className="bg-[#F7F5FF] border border-[#7C5CFF] rounded-lg p-8 text-center shadow-sm">
-              <h3 className="text-2xl font-bold text-[#1E355E] mb-3">
-                無料相談で採用の悩みを解決
-              </h3>
-              <p className="mb-6 text-[#2D2D2D]">
-                お客様の課題に合わせた最適な採用戦略をご提案します。まずはお気軽にご相談ください
-              </p>
-              <Button 
-                href="/contact" 
-                className="bg-[#7C5CFF] text-white px-8 py-3 rounded-md font-medium hover:bg-[#6a4de6] transition-colors w-full sm:w-auto"
-              >
-                オンライン採用相談 <ArrowRight className="ml-2 h-4 w-4 inline-block" />
-              </Button>
             </div>
           </div>
         </Container>
