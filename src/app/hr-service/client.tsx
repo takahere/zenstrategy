@@ -786,49 +786,46 @@ export default function HRServiceClient() {
       {/* CTA Buttons Section */}
       <section className="py-12 md:py-20 bg-white">
         <Container>
+          <div className="text-center max-w-4xl mx-auto mb-10">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#2D2D2D] mb-4">
+              採用の悩みを解決する一歩を踏み出しませんか？
+            </h2>
+            <p className="text-lg text-[#2D2D2D] mb-8">
+              採用のプロフェッショナルによるサポートで、貴社の課題を解決します
+            </p>
+          </div>
+          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* 資料ダウンロードボタン */}
-            <div className="relative rounded-3xl overflow-hidden shadow-lg">
-              <div className="absolute top-0 left-0 w-full bg-[#E6BE54] text-center py-3 rounded-t-3xl">
-                <p className="text-[#333] font-bold">3分で「まるごと人事」がわかる!!</p>
-              </div>
-              <div className="pt-14 pb-8 px-8 bg-[#333] flex flex-col items-center justify-center">
-                <div className="mb-4">
-                  <Image 
-                    src="/medialogo.png" 
-                    alt="資料サンプル" 
-                    width={100} 
-                    height={80} 
-                    className="object-contain"
-                  />
-                </div>
-                <Link href="/download" className="flex items-center justify-between w-full bg-[#E6BE54] text-[#333] font-bold px-8 py-4 rounded-full hover:bg-opacity-90 transition-all">
-                  <span className="text-xl">資料をダウンロード</span>
-                  <span className="text-2xl">&gt;</span>
-                </Link>
-              </div>
+            <div className="bg-[#F7F5FF] border border-[#7C5CFF] rounded-lg p-8 text-center shadow-sm">
+              <h3 className="text-2xl font-bold text-[#1E355E] mb-3">
+                3分で「まるごと人事」がわかる
+              </h3>
+              <p className="mb-6 text-[#2D2D2D]">
+                サービス詳細や料金体系など、すべてをコンパクトにまとめた資料をご覧いただけます
+              </p>
+              <Button 
+                href="/download" 
+                className="bg-[#7C5CFF] text-white px-8 py-3 rounded-md font-medium hover:bg-[#6a4de6] transition-colors w-full sm:w-auto"
+              >
+                資料ダウンロード <ArrowRight className="ml-2 h-4 w-4 inline-block" />
+              </Button>
             </div>
             
             {/* オンライン採用相談ボタン */}
-            <div className="relative rounded-3xl overflow-hidden shadow-lg">
-              <div className="absolute top-0 left-0 w-full bg-[#333] text-center py-3 rounded-t-3xl">
-                <p className="text-white font-bold">相談無料！採用のお悩みを伺います!!</p>
-              </div>
-              <div className="pt-14 pb-8 px-8 bg-[#F5F5F5] flex flex-col items-center justify-center">
-                <div className="mb-4">
-                  <Image 
-                    src="/medialogo.png" 
-                    alt="相談イメージ" 
-                    width={100} 
-                    height={80} 
-                    className="object-contain"
-                  />
-                </div>
-                <Link href="/contact" className="flex items-center justify-between w-full bg-[#E6BE54] text-[#333] font-bold px-8 py-4 rounded-full hover:bg-opacity-90 transition-all">
-                  <span className="text-xl">オンライン採用相談</span>
-                  <span className="text-2xl">&gt;</span>
-                </Link>
-              </div>
+            <div className="bg-[#F7F5FF] border border-[#7C5CFF] rounded-lg p-8 text-center shadow-sm">
+              <h3 className="text-2xl font-bold text-[#1E355E] mb-3">
+                無料相談で採用の悩みを解決
+              </h3>
+              <p className="mb-6 text-[#2D2D2D]">
+                お客様の課題に合わせた最適な採用戦略をご提案します。まずはお気軽にご相談ください
+              </p>
+              <Button 
+                href="/contact" 
+                className="bg-[#7C5CFF] text-white px-8 py-3 rounded-md font-medium hover:bg-[#6a4de6] transition-colors w-full sm:w-auto"
+              >
+                オンライン採用相談 <ArrowRight className="ml-2 h-4 w-4 inline-block" />
+              </Button>
             </div>
           </div>
         </Container>
