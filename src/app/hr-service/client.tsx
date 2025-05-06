@@ -555,6 +555,33 @@ export default function HRServiceClient() {
         </Container>
       </section>
 
+      {/* BPaaSメリット Section */}
+      <section className="py-16 md:py-24 bg-[#F7F5FF]">
+        <Container>
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="mb-10">
+              <p className="text-left text-lg md:text-xl font-bold mb-2">1. 業務DX化と生産性向上</p>
+              <p className="text-left text-base md:text-lg mb-6">
+                クラウドベースのSaaSを活用し、業務プロセスのDX化を推進。採用フローの標準化と効率化により、企業は日常的な採用業務から解放され、コア業務に集中できるようになります。各種SaaSツールの連携やマネジメントもZenXが一括で管理し、複数ツールの運用に伴う負担を軽減します。
+              </p>
+              <p className="text-left text-lg md:text-xl font-bold mb-2">2. コスト削減</p>
+              <p className="text-left text-base md:text-lg mb-6">
+                BPaaSは、必要なリソースを柔軟に調整できるため、従来のBPOに比べてコスト効率が向上します。また、SaaSライセンス料や各ツールの運用費用も合理化し、最適なコストでの運用体制を構築。自社でのシステム構築が不要なため、新たなソリューションを迅速に導入できます。
+              </p>
+              <p className="text-left text-lg md:text-xl font-bold mb-2">3. データ蓄積とノウハウの活用</p>
+              <p className="text-left text-base md:text-lg">
+                ZenXの人事BPaaSでは、クラウド上で蓄積されるデータとノウハウを活用し、採用活動の質を継続的に改善します。採用データの共有が容易であり、企業はそのデータを基に内製化や体制強化に役立てることができます。
+              </p>
+            </div>
+            <div className="mt-12">
+              <p className="text-2xl md:text-3xl font-bold text-[#1E355E]">
+                継続率95%以上！多くのお客様にご好評いただいております
+              </p>
+            </div>
+          </div>
+        </Container>
+      </section>
+
       {/* Target Industries Section */}
       <section className="py-16 md:py-24 bg-white">
         <Container>
