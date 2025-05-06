@@ -586,9 +586,14 @@ export default function HRServiceClient() {
       <section className="py-16 md:py-24 bg-white">
         <Container>
           <div className="max-w-5xl mx-auto text-center mb-12">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-[#7C5CFF]">
-              採用を"戦略から一緒に創る"パートナーに。
+            <h2 className="text-2xl md:text-4xl font-bold mb-2 text-[#1E355E]">
+              累計の支援実績は
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1E355E] to-[#7C5CFF] mx-1">150社</span>！<br className="hidden md:block" />
+              を支えてきた経験豊富なチーム
             </h2>
+            <h3 className="text-3xl md:text-5xl font-bold mb-4 text-[#7C5CFF] mt-4">
+              採用を"戦略から一緒に創る"パートナーに。
+            </h3>
             <p className="text-lg md:text-2xl font-semibold text-[#2D2D2D] mb-8">
               経験豊富なプロが、上流から伴走。貴社の採用成功にコミットします。
             </p>
