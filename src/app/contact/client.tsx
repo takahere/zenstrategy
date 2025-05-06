@@ -65,7 +65,7 @@ export default function ContactClient() {
         <Container>
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-[#2D2D2D] mb-6">
-              お問い合わせ
+              オンライン採用相談
             </h1>
             <p className="text-lg md:text-xl text-[#2D2D2D] mb-8">
               HR BPaaSサービスについてのご質問やお見積もりのご依頼は、以下のフォームよりお気軽にお問い合わせください。
